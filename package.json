@@ -13,5 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.27"
-  }
+  },
+  "homepage": "https://taiyangyexue.github.io/yuwenting.github.io/"
 }
