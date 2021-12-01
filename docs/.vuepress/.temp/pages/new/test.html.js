@@ -8,8 +8,8 @@ export const data = {
   "headers": [
     {
       "level": 3,
-      "title": "test",
-      "slug": "test",
+      "title": "test 先试试吧 不知道呢",
+      "slug": "test-先试试吧-不知道呢",
       "children": []
     }
   ],
