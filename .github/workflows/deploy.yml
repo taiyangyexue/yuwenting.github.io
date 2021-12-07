@@ -26,17 +26,14 @@ jobs:
        uses: actions/checkout@v2
        with: 
          persist-credentials: false
-     - name: Install
-       run: npm ci && npm run-script docs:build
-     - name: Install SSH Client
-       uses: webfactory/ssh-agent@v0.2.0 # This step installs the ssh client into the workflow run. There's many options available for this on the action marketplace.
-       with:
-         ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+     - name: Install & Build # 指令
+       run: |
+          npm install
+          npm run docs:build 
 
      - name: Build and Deploy Repo
        uses: JamesIves/github-pages-deploy-action@releases/v4
        with: 
-         BASE_BRANCH: main
+         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # Settings > Secret 建立的 ACCESS_TOKEN，推同个 repo 可以不需要
          BRANCH: gh-pages
          FOLDER: docs/.vuepress/dist
-         SSH: true # SSH must be set to true so the deploy action knows which protocol to deploy with.
