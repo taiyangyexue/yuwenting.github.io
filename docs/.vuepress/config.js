@@ -1,5 +1,5 @@
 module.exports = {
-    base:'/yuwenting/',
+    base:'/yuwenting.github.io/',
     title: 'Hello VuePress',
     description: 'Hello, my friend!',
     head: [
