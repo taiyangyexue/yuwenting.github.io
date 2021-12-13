@@ -1,17 +1,9 @@
 export const siteData = {
-  "base": "/yuwenting/",
+  "base": "/yuwenting.github.io/",
   "lang": "en-US",
-  "title": "Hello VuePress",
-  "description": "Hello, my friend!",
-  "head": [
-    [
-      "link",
-      {
-        "rel": "icon",
-        "href": "/favicon.ico"
-      }
-    ]
-  ],
+  "title": "yuwenting",
+  "description": "You think you can, you can",
+  "head": [],
   "locales": {}
 }
 

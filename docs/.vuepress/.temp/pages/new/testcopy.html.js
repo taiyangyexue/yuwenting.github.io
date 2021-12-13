@@ -14,7 +14,16 @@ export const data = {
     }
   ],
   "filePathRelative": "new/testcopy.md",
-  "git": {}
+  "git": {
+    "updatedTime": 1638343298000,
+    "contributors": [
+      {
+        "name": "yuwenting",
+        "email": "yuwenting@fehorizon.com",
+        "commits": 1
+      }
+    ]
+  }
 }
 
 if (import.meta.webpackHot) {

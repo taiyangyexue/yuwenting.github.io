@@ -1,55 +1,66 @@
 export const themeData = {
   "search": false,
-  "nav": [
+  "navbar": [
     {
       "text": "Home",
       "link": "/"
     },
     {
-      "text": "Guide",
-      "link": "/guide/"
-    },
-    {
-      "text": "External",
-      "link": "https://www.baidu.com"
+      "text": "Subdirectory",
+      "link": "/subdirectory/subdirectory.md"
     }
   ],
-  "sidebarDepth": 1,
   "sidebar": [
-    [
-      "/role/role.md",
-      "首页"
-    ],
     {
-      "title": "新框架",
-      "collapsable": true,
+      "text": "notepad",
+      "link": "/",
       "children": [
-        [
-          "/new/test.md",
-          "发布新框架"
-        ],
-        [
-          "/new/testcopy.md",
-          "本地开发"
-        ]
+        {
+          "text": "vue",
+          "link": "/vue/home.md",
+          "children": [
+            {
+              "text": "vuepress",
+              "link": "/vue/vuepress.md"
+            }
+          ]
+        },
+        {
+          "text": "node",
+          "link": "/node/home.md"
+        },
+        {
+          "text": "html",
+          "link": "/html/home.md"
+        },
+        {
+          "text": "css",
+          "link": "/css/home.md",
+          "children": [
+            {
+              "text": "blackAndWhite",
+              "link": "/css/blackWhite.md"
+            }
+          ]
+        },
+        {
+          "text": "js",
+          "link": "/js/home.md"
+        }
       ]
-    },
-    [
-      "/feedback/feedback.md",
-      "问题反馈"
-    ]
+    }
   ],
   "locales": {
     "/": {
       "selectLanguageName": "English"
     }
   },
-  "navbar": [],
   "logo": null,
   "darkMode": true,
   "repo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
+  "sidebarDepth": 2,
   "editLink": true,
   "editLinkText": "Edit this page",
   "lastUpdated": true,

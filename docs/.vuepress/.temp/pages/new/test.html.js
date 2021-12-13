@@ -8,13 +8,22 @@ export const data = {
   "headers": [
     {
       "level": 3,
-      "title": "test 先试试吧 不知道呢",
-      "slug": "test-先试试吧-不知道呢",
+      "title": "test 先试试吧 不知道呢 管他呢",
+      "slug": "test-先试试吧-不知道呢-管他呢",
       "children": []
     }
   ],
   "filePathRelative": "new/test.md",
-  "git": {}
+  "git": {
+    "updatedTime": 1638775465000,
+    "contributors": [
+      {
+        "name": "yuwenting",
+        "email": "yuwenting@fehorizon.com",
+        "commits": 3
+      }
+    ]
+  }
 }
 
 if (import.meta.webpackHot) {
