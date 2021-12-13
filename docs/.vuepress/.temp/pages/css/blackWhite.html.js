@@ -15,8 +15,14 @@ export const data = {
   ],
   "filePathRelative": "css/blackWhite.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1639384606000,
+    "contributors": [
+      {
+        "name": "yuwenting",
+        "email": "yuwenting@fehorizon.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

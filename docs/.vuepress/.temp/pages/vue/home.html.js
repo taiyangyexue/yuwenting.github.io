@@ -15,8 +15,14 @@ export const data = {
   ],
   "filePathRelative": "vue/home.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1639384606000,
+    "contributors": [
+      {
+        "name": "yuwenting",
+        "email": "yuwenting@fehorizon.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

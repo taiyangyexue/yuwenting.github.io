@@ -7,16 +7,22 @@ export const data = {
   "excerpt": "",
   "headers": [
     {
-      "level": 3,
-      "title": "vuepress 先试试吧 不知道呢 管他呢",
-      "slug": "vuepress-先试试吧-不知道呢-管他呢",
+      "level": 2,
+      "title": "VuePress从零开始",
+      "slug": "vuepress从零开始",
       "children": []
     }
   ],
   "filePathRelative": "vue/vuepress.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1639384606000,
+    "contributors": [
+      {
+        "name": "yuwenting",
+        "email": "yuwenting@fehorizon.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

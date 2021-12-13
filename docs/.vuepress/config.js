@@ -23,6 +23,7 @@ module.exports = {
                     {
                         text: "vue",
                         link:"/vue/home.md",
+                        // activeMatch: '^/vue/',
                         children:[
                             {
                                 text: "vuepress",

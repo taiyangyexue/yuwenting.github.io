@@ -11,12 +11,12 @@ export const data = {
   "headers": [],
   "filePathRelative": "README.md",
   "git": {
-    "updatedTime": 1638875701000,
+    "updatedTime": 1639384606000,
     "contributors": [
       {
         "name": "yuwenting",
         "email": "yuwenting@fehorizon.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   }
